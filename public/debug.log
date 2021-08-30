@@ -1,0 +1,4 @@
+[0830/132224.315:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0830/132224.817:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Emmanuella\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\ebe10980-4b06-4c30-bba6-43726b78a537: The system cannot find the path specified. (0x3)
+[0830/132225.020:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Emmanuella\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\55f0601f-ec1a-4246-8dbc-e6ac962c6b01: The system cannot find the path specified. (0x3)
+[0830/132225.051:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Emmanuella\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\63489205-cf68-4d2f-ad68-139e631f6929: The system cannot find the path specified. (0x3)
