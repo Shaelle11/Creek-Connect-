@@ -23,7 +23,7 @@ const ChannelSearch = () => {
     getChannels(event.target, value);
   };
   return (
-    <div classname="channel-search__container">
+    <div className="channel-search__container">
       <div className="channel-search__input__wrapper">
         <div className="channel-searvh__input__icon">
           <SearchIcon />

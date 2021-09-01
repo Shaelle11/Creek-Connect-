@@ -1,24 +1,14 @@
 import React from "react";
-import { StreamChat } from "stream-chat";
-import { Chat } from "stream-chat-react";
-import Cookies from "universal-cookies";
-import "./App.css";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import { ChannelListContainer, ChannelContainer } from "./components";
+import Join from "./components/Join/Join";
+import Chat from "./components/Chat/Chat";
 
-const apiKey = "92wwfwnduygk";
-
-const client = StreamChat.getInstance(apiKey);
-
-const App = () => {
-  return (
-    <div className="app__wrapper">
-      <Chat client={client} theme="team lights">
-        <ChannelListContainer />
-        <ChannelContainer />
-      </Chat>
-    </div>
-  );
-};
+const App = () => (
+  <Router>
+    <Route path="/" exact Component={Join} />
+    <Route path="/chat" Component={Chat} />
+  </Router>
+);
 
 export default App;
