@@ -1,3 +1,4 @@
-export { default as ChannelContainer } from "./ChannelContainer";
-export { default as ChannelListContainer } from "./ChannelListContainer";
-export { default as ChannelSearch } from "./ChannelSearch";
+export { default as SignIn } from "./SignIn";
+export { default as ChatView } from "./Chat";
+export { default as InfoBar } from "./InfoBar";
+export { default as Input } from "./Input";
