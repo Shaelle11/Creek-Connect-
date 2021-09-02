@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import "./Join.css";
+import "./SignIn.css";
 
-const Join = () => {
+const SignIn = () => {
   const [name, setName] = useState("");
   const [room, SetRoom] = useState("");
 
@@ -11,13 +11,13 @@ const Join = () => {
   SetRoom(room);
 
   return (
-    <div className="joinOuterContainer">
-      <div className="joinInnerContainer">
+    <div className="signOuterContainer">
+      <div className="signInnerContainer">
         <h1 className="heading">Join</h1>
         <div>
           <input
             placeholder="Name"
-            className="joinInput"
+            className="signInput"
             type="text"
             onChange={(event) => setName(event.target.value)}
           />
@@ -32,7 +32,7 @@ const Join = () => {
         </div>
         <Link
           onClick={(event) => (!name || !room ? event.preventDefault() : null)}
-          to={"/Chat?name=${name}&room=${room}"}
+          to={"Chat ? name=${name}& room=${room}"}
         >
           <button className="button mt-20" type="submit">
             Sign in
@@ -43,4 +43,4 @@ const Join = () => {
   );
 };
 
-export default Join;
+export default SignIn;
