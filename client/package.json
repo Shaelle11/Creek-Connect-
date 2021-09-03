@@ -1,12 +1,12 @@
 {
-  "name": "shopping-cart-admin-panel",
+  "name": "creek-connect",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "query-string": "^7.0.1",
-    "react": "^16.8.6",
+    "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-emoji": "^0.5.0",
     "react-router": "^5.2.1",
@@ -36,5 +36,17 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3000"
+  "proxy": "http://localhost:3000",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "author": "",
+  "license": "ISC"
 }
