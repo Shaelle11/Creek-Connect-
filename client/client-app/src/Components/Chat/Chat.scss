@@ -1,0 +1,23 @@
+.Chat{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #C4C4C4;
+    }
+
+    .chatImg{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+
+    }
+    .chatName{
+        font-weight: 500;
+
+    }
+}
