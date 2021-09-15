@@ -1,0 +1,112 @@
+@import './variables';
+
+/*** Home ***/
+.container {
+    width: 100%;
+    height: 100vh;
+
+    .hero {
+        display: flex;
+        flex: 1;
+        position: relative;
+        padding-top: 50px;
+        justify-content: space-between;
+        align-items: center;
+        .text{
+            margin-top: 0;
+            position: absolute;
+            line-height: 3px;
+            top: 100px;
+            h1{
+                color: $primary;
+                font-size: 50px;
+                letter-spacing: 4px;
+                line-height: 0.3px;
+                margin-left: 100px;
+                margin-top: 60px;
+                font-weight: 200;
+                margin-bottom: 0;
+                &.bold{
+                    color: $primary;
+                    font-weight: 800;
+                    letter-spacing: normal;
+                }
+            }
+            img{
+                width: 100%;
+                max-width: 250px;
+            }
+        }
+        .hero-image{
+            position: absolute;
+            right: 50px;
+            top: 100px;
+            margin-right: 50px;
+            img{
+                width: 100%;
+                max-width: 850px;
+            }
+            h4{
+                color: $primary;
+                text-align: center;
+                font-size: 24px;
+                margin-top: 5px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+/*** Side Layout***/
+.body-fluid{
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    .text{
+        position: absolute;
+        left: 0;
+        top: 250px;
+        width: 100%;
+        max-width: 400px;
+        h1{
+            color: $primary;
+            margin-left: 80px;
+            margin-bottom: 0;
+            position: absolute;
+            bottom: 90px;
+            font-weight: 300;
+            span{
+                font-weight: 800;
+            }
+        }
+        img{
+            width: 100%;
+            max-width: 150px;
+            margin-top: 0;
+        }
+    }
+    .form-card{
+        position: relative;
+        width: 100%;
+        max-width: 450px;
+        margin: 0 auto 30px;
+        .top-links{
+            display: flex;
+            justify-content: center;
+            .logLink, .signLink{
+                list-style: none;
+                margin-bottom: 20px;
+                border-right: 2px solid $primary;
+                cursor: pointer;
+                color: $primary;
+                padding: 0 6px;
+                font-size: 13px;
+            }
+            .logLink{
+                border: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+@import './variables';
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5rem 100px;
+
+    .logo{
+        img{
+            width: 100%;
+            max-width: 150px;
+        }
+    }
+    .nav{
+        align-items: center;
+        li{
+            display: inline-block;
+            margin: 0 1rem;
+            .navLink{
+                color: $primary;
+                font-size: 16px;
+                font-weight: 600;
+                &:hover{
+                    border-bottom: 2px solid $primary;
+                }
+            }
+            .login{
+                border: 2px solid $primary;
+                border-radius: 30px;
+                padding: 12px 24px;
+                color: $primary;
+                font-size: 16px;
+                font-weight: 600;
+                &:hover{
+                    background: $primary;
+                    color: #fff;
+                    transition: all .3s ease;
+                }
+            }
+            .signUp{
+                background-color: $primary;
+                color: #fff;
+                border: 2px solid $primary;
+                border-radius: 30px;
+                padding: 12px 24px;
+                font-weight: 600;
+                &:hover{
+                    opacity: 0.9;
+                    transition: all .3s ease;
+                }
+            }
+        }
+    }
+}
