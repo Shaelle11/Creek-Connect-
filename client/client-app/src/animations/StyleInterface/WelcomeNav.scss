@@ -1,0 +1,36 @@
+nav {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    padding: 2rem;
+  }
+  ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    padding: 0 1rem;
+
+    li {
+      padding: 0 1rem;
+      background-color: blue;
+      border: solid white;
+      border-radius: 25%;
+      width: 6rem;
+      padding: 0.5rem;
+
+      .btn-login {
+        background-color: blue;
+        border: solid white;
+        border-radius: 20%;
+        width: 6rem;
+        padding: 0.5rem;
+      }
+
+      a {
+        color: white;
+      }
+    }
+  }
+}

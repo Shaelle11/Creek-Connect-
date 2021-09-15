@@ -30,3 +30,15 @@
 [0906/071240.504:ERROR:exception_snapshot_win.cc(99)] thread ID 12700 not found in process
 [0906/071240.504:ERROR:exception_snapshot_win.cc(99)] thread ID 9108 not found in process
 [0906/071240.504:ERROR:exception_snapshot_win.cc(99)] thread ID 8328 not found in process
+[0906/233134.177:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0906/233136.029:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Emmanuella\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\3952ef35-e4b5-4a10-9663-fded6825e3df: The system cannot find the path specified. (0x3)
+[0906/233136.098:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Emmanuella\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\33982d2c-9bd2-4dd3-832a-6da5903cb29d: The system cannot find the path specified. (0x3)
+[0906/233136.130:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Emmanuella\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\ccbb2f90-a5f9-4288-a7d5-1a0afd0bdd52: The system cannot find the path specified. (0x3)
+[0906/233136.272:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Emmanuella\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\855d7df2-5ca3-4d3d-b8ef-8ee6cb2d48cf: The system cannot find the path specified. (0x3)
+[0906/233136.333:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Emmanuella\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\b37c976c-79b1-4453-be73-dfd734c39af2: The system cannot find the path specified. (0x3)
+[0906/233136.708:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Emmanuella\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\2e95e797-536b-4b34-acfd-9081f729c017: The system cannot find the path specified. (0x3)
+[0906/233136.786:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Emmanuella\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\ebef2568-a004-429b-9a8e-efbc006b9dbc: The system cannot find the path specified. (0x3)
+[0906/233136.857:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Emmanuella\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\19c2af97-3568-4e08-aed3-f3c18c420902: The system cannot find the path specified. (0x3)
+[0906/233136.898:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Emmanuella\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\3a207296-13cc-4ced-a539-885a30bc28cf: The system cannot find the path specified. (0x3)
+[0906/233136.949:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Emmanuella\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\5b5506e2-f69c-43c6-9cd8-6e37d000bd29: The system cannot find the path specified. (0x3)
+[0906/233137.310:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Emmanuella\AppData\Local\CryptoTab Browser\User Data\Crashpad\attachments\1acaca1d-5ba6-452b-b100-c08a9077fde0: The system cannot find the path specified. (0x3)
