@@ -1,23 +1,15 @@
-.Chat{
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    cursor: pointer;
-
-    &:hover{
-        background-color: #C4C4C4;
-    }
-
-    .chatImg{
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        object-fit: cover;
-        margin-right: 20px;
-
-    }
-    .chatName{
-        font-weight: 500;
-
-    }
+.chat-container {
+  margin-top: 50px;
+}
+.chatmessage-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px auto;
+  width: 700px;
+  display: table;
+}
+.message-box {
+  background-color: #eee;
+  padding: 20px;
+  border-bottom: 1px solid #cccccc;
 }

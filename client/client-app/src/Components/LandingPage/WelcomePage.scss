@@ -1,0 +1,17 @@
+.welcome {
+  border: 2px solid blue;
+  margin-top: 5rem;
+
+  .body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    .body-right {
+      padding: 1rem 2rem;
+    }
+    .body-left {
+      padding: 1rem 2rem;
+      background-image: url();
+    }
+  }
+}
